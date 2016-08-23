@@ -1,0 +1,24 @@
+html {
+    background: url(../images/questionmark1.png);
+}
+
+body {
+	background: none;
+}
+
+h1{
+	text-align: center;
+}
+
+.centered{
+	margin: auto; 
+	margin-top: 50px;
+	max-width: 800px;
+}
+
+.row {
+	background: black;
+}
+
+
+
