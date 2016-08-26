@@ -1,24 +1,106 @@
+@font-face {
+	font-family: "SuperMario256";
+ 	src: url('SuperMario256.eot?#iefix') format('embedded-opentype'),
+    url('SuperMario256.eot'),
+    url('SuperMario256.ttf')  format('truetype'),
+    url('SuperMario256.svg#svgFontName') format('svg');
+}
+
+p{
+	color: red;
+	font-family: "SuperMario256";
+}
+
 html {
-    background: url(../images/questionmark1.png);
+    background: url(../images/questionmark2.png);
 }
 
 body {
 	background: none;
 }
 
-h1{
-	text-align: center;
+h1 {
+	font-family: "SuperMario256";
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 50px;
+	color: red;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #000000;
+}
+
+h2 {
+	display: inline-block;
+/*	background-color: rgba(0,0,0, 0.1);*/
+	font-family: "SuperMario256";
+	color: red;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #000000;
+}
+
+label {
+	font-family: "SuperMario256";
+	background-color: rgba(0,0,255, 0.5);
+	font-size: 25px;
+	color: yellow;
+	border-radius: 15%;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.btn {
+		font-family: "SuperMario256";
+	font-size: 30px;
+	width: 175px;
+	box-shadow: 0 0 20px #000
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 0 0 20px #000
+}
+
+.timerH {
+	color: ;
 }
 
 .centered{
+	border: solid black 4px;
 	margin: auto; 
 	margin-top: 50px;
 	max-width: 800px;
+	height: 800px;
+	background: url(../images/background.jpg);
+	box-shadow: 0 0 20px #000
 }
 
 .row {
-	background: black;
+	height: auto;
 }
+
+.answer {
+	color: red;
+}
+
+.question1,
+.question2,
+.question3 {
+	background-color: rgba(0,0,0, 0.2)
+}
+
+.blue{
+	color: #4658ac;
+}
+
+.green{
+	color: green;
+}
+
+.yellow {
+	color: yellow;
+}
+
 
 
 
