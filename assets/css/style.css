@@ -1,14 +1,11 @@
 @font-face {
-	font-family: "SuperMario256";
- 	src: url('SuperMario256.eot?#iefix') format('embedded-opentype'),
-    url('SuperMario256.eot'),
-    url('SuperMario256.ttf')  format('truetype'),
-    url('SuperMario256.svg#svgFontName') format('svg');
+    font-family: "SuperMario256";
+    src: url('SuperMario256.eot?#iefix') format('embedded-opentype'), url('SuperMario256.eot'), url('SuperMario256.ttf') format('truetype'), url('SuperMario256.svg#svgFontName') format('svg');
 }
 
-p{
-	color: red;
-	font-family: "SuperMario256";
+p {
+    color: red;
+    font-family: "SuperMario256";
 }
 
 html {
@@ -16,91 +13,134 @@ html {
 }
 
 body {
-	background: none;
+    background: none;
 }
 
 h1 {
-	font-family: "SuperMario256";
-	margin-top: 30px;
-	margin-bottom: 30px;
-	font-size: 50px;
-	color: red;
-	-webkit-text-stroke-width: 2px;
+    font-family: "SuperMario256";
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: red;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px #000000;
 }
 
 h2 {
-	display: inline-block;
-/*	background-color: rgba(0,0,0, 0.1);*/
-	font-family: "SuperMario256";
-	color: red;
-	-webkit-text-stroke-width: 2px;
+    display: inline-block;
+    /*	background-color: rgba(0,0,0, 0.1);*/
+    font-family: "SuperMario256";
+    color: white;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px #000000;
 }
 
 label {
-	font-family: "SuperMario256";
-	background-color: rgba(0,0,255, 0.5);
-	font-size: 25px;
-	color: yellow;
-	border-radius: 15%;
-	-webkit-text-stroke-width: 1px;
+    font-family: "SuperMario256";
+    background-color: rgba(0, 0, 255, 0.5);
+    font-size: 25px;
+    color: yellow;
+    border-radius: 7%;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
+input {
+    height: 15px;
+}
+
+.imagediv {
+    position: relative;
+}
+
+.mario {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 125px;
+    height: 150px;
+    -ms-transform: rotate(-10deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-10deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+}
+
+.princess {
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    width: 145px;
+    height: 165px;
+    -ms-transform: rotate(10deg);
+    /* IE 9 */
+    -webkit-transform: rotate(10deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+}
+
 .btn {
-		font-family: "SuperMario256";
-	font-size: 30px;
-	width: 175px;
-	box-shadow: 0 0 20px #000
-	-webkit-text-stroke-width: 1px;
+    font-family: "SuperMario256";
+    font-size: 30px;
+    width: 175px;
+    box-shadow: 0 0 20px #000 -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px #000000;
     box-shadow: 0 0 20px #000
 }
 
 .timerH {
-	color: ;
+    color: red;
+    margin: 0;
+    margin-top: 10dpx;
+    margin-bottom: 10px;
 }
 
-.centered{
-	border: solid black 4px;
-	margin: auto; 
-	margin-top: 50px;
-	max-width: 800px;
-	height: 800px;
-	background: url(../images/background.jpg);
-	box-shadow: 0 0 20px #000
+.centered {
+    border: solid black 4px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 800px;
+    height: 800px;
+    background: url(../images/background.jpg);
+    box-shadow: 0 0 20px #000
 }
 
 .row {
-	height: auto;
+    height: auto;
 }
 
 .answer {
-	color: red;
+    color: red;
 }
 
 .question1,
 .question2,
 .question3 {
-	background-color: rgba(0,0,0, 0.2)
+    background-color: rgba(0, 0, 0, 0.2)
 }
 
-.blue{
-	color: #4658ac;
+.blue {
+    color: #4658ac;
 }
 
-.green{
-	color: green;
+.green {
+    color: green;
 }
 
 .yellow {
-	color: yellow;
+    color: yellow;
 }
 
-
-
-
+.correct,
+.incorrect,
+.blank {
+    font-size: 20px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px #000000;
+}
