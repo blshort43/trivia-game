@@ -4,7 +4,7 @@
 }
 
 p {
-    color: red;
+    color: yellow;
     font-family: "SuperMario256";
 }
 
@@ -69,20 +69,6 @@ input {
     -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
 }
 
-.princess {
-    position: absolute;
-    top: 3px;
-    right: -8px;
-    width: 145px;
-    height: 165px;
-    -ms-transform: rotate(10deg);
-    /* IE 9 */
-    -webkit-transform: rotate(10deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(10deg);
-    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
-}
-
 .btn {
     font-family: "SuperMario256";
     font-size: 30px;
@@ -121,7 +107,7 @@ input {
 .question1,
 .question2,
 .question3 {
-    background-color: rgba(0, 0, 0, 0.2)
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .blue {
@@ -139,7 +125,7 @@ input {
 .correct,
 .incorrect,
 .blank {
-    font-size: 20px;
+    font-size: 25px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     text-shadow: 2px 2px #000000;
